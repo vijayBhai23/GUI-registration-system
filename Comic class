@@ -1,0 +1,32 @@
+package registration;
+
+/**
+ *
+ * @author VIJAYBHAI
+ */
+public class Comic {
+    
+      String name,price,publish;
+    
+    Comic(String name,String price, String publish){
+        
+        this.name=name;
+        this.price=price;
+        this.publish=publish;
+        
+    }
+    public String getName(){
+        return name;
+    }
+    public String getPrice(){
+        return price;
+        
+    }
+    public String getPublish(){
+        return publish;
+        
+    }
+}
+    
+
+
